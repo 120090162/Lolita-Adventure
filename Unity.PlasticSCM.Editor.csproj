@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{afa0d4c1-9c48-7ba3-b6b5-3f281629530c}</ProjectGuid>
+    <ProjectGuid>{1930a2fb-ec44-6001-bc98-f1deb18259c1}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -633,13 +633,13 @@
       <HintPath>D:\Unity\Editor\2022.3.49f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:\Unity\Editor\2022.3.49f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -1017,19 +1017,19 @@
       <HintPath>D:\Unity\Editor\2022.3.49f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{7afbb890-6216-6ed4-87b6-d50587a7aab9}</Project>
+      <Project>{79b55c59-a123-b22b-7884-431abe08c900}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{7c36a085-751c-ac17-951f-5552feeace19}</Project>
+      <Project>{c9bf8946-b5dd-c183-d5e1-44252af25fd9}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

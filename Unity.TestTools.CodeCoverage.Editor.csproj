@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>UnityEditor.TestTools.CodeCoverage</RootNamespace>
-    <ProjectGuid>{f207c1af-e7c1-69ae-d13e-771606510420}</ProjectGuid>
+    <ProjectGuid>{746f1e18-33cd-54f3-ab39-de90bea9c19b}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -357,10 +357,10 @@
       <HintPath>D:\Unity\Editor\2022.3.49f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:\Unity\Editor\2022.3.49f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -738,31 +738,31 @@
       <HintPath>D:\Unity\Editor\2022.3.49f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\WORKING\UNITY\Lolita Adventure\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\WORKING\UNITY\Lolita-Adventure\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{7afbb890-6216-6ed4-87b6-d50587a7aab9}</Project>
+      <Project>{79b55c59-a123-b22b-7884-431abe08c900}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{7c36a085-751c-ac17-951f-5552feeace19}</Project>
+      <Project>{c9bf8946-b5dd-c183-d5e1-44252af25fd9}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{50b2dea8-c3db-7c50-9fa7-f982aeff8ff7}</Project>
+      <Project>{a9e47a61-e5fe-9484-fc1b-de7dd79793a5}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{2ef2dfa8-c122-bdbd-d56f-b8ab88db3b71}</Project>
+      <Project>{fc22f0af-364c-c956-327e-ee957d2bb725}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Settings.Editor.csproj">
-      <Project>{2cc39059-25dd-d8b2-4347-38f36563222f}</Project>
+      <Project>{8da30898-79b6-a5d2-2c84-0b68b3f3956e}</Project>
       <Name>Unity.Settings.Editor</Name>
     </ProjectReference>
   </ItemGroup>

@@ -344,7 +344,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -2408,7 +2408,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 48744,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -3091,7 +3091,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 92431,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3785,7 +3785,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 147222,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -4385,7 +4385,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 188312,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
@@ -4938,7 +4938,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 226989,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
@@ -5502,7 +5502,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 268428,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -6322,7 +6322,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 337762,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -6873,7 +6873,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 378210,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
@@ -7417,7 +7417,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 417580,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
@@ -7963,7 +7963,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 457809,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
@@ -8498,7 +8498,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 496808,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -9073,7 +9073,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 538801,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -9662,7 +9662,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 581823,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -10201,7 +10201,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 620815,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -11146,7 +11146,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 711374,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -11702,7 +11702,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 752129,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -12256,7 +12256,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 790667,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
@@ -12882,7 +12882,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 833126,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -13483,7 +13483,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 875961,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -14308,7 +14308,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 938411,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -15331,7 +15331,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1033370,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -16253,7 +16253,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1119328,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -17001,7 +17001,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1178329,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -17556,7 +17556,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1218769,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -18153,7 +18153,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1259202,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -18772,7 +18772,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1306372,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita Advent",
+      "PayloadDebugContentSnippet": "D:\\WORKING\\UNITY\\Lolita-Advent",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -20153,7 +20153,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"D:/Unity/Editor/2022.3.49f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.49f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\ScriptAssemblies\" -s=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"D:\\WORKING\\UNITY\\Lolita Adventure\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/Unity/Editor/2022.3.49f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.49f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\Unity\\Editor\\2022.3.49f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\ScriptAssemblies\" -s=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"D:\\WORKING\\UNITY\\Lolita-Adventure\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "D:/Unity/Editor/2022.3.49f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/Unity/Editor/2022.3.49f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -20437,6 +20437,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "D:/WORKING/UNITY/Lolita Adventure/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "D:/WORKING/UNITY/Lolita-Adventure/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
