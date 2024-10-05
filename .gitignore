@@ -1,0 +1,22 @@
+# 忽略用户数据，如项目设置、临时文件等
+Library/
+ProjectSettings/
+Temp/
+.vscode/
+Logs/
+#
+# 忽略Unity生成的文件
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+*.pidb
+*.booproj
+*.log
+#
+# 忽略编辑器自动生成的文件（如拆分资源信息）
+*.asset
+#
+# 忽略导出的资源和包
+*.apk
+*.unitypackage
