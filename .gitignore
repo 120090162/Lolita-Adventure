@@ -3,6 +3,7 @@ Library/
 ProjectSettings/
 Temp/
 .vscode/
+Logs/
 #
 # 忽略Unity生成的文件
 *.csproj
@@ -11,6 +12,7 @@ Temp/
 *.userprefs
 *.pidb
 *.booproj
+*.log
 #
 # 忽略编辑器自动生成的文件（如拆分资源信息）
 *.asset
