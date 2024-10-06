@@ -11,6 +11,7 @@ public class Player1 : MonoBehaviour
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
+    private Animator animator;
     private Vector2 movement;
     private Vector3 startPosition;
     private bool isGrounded = true;
@@ -19,6 +20,7 @@ public class Player1 : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         startPosition = transform.position;
 
     }
@@ -35,6 +37,7 @@ public class Player1 : MonoBehaviour
         { 
             Jump();
         }
+
     }
 
     // FixedUpdate is called at a fixed interval and is independent of frame rate
