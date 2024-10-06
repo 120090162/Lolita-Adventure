@@ -30,32 +30,35 @@ public class Player1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-
-        if (movement.x != 0)
+        if (GameManager.is_enter)
         {
-            animator.SetBool("Running", true);
-        }
-        else
-        {
-            animator.SetBool("Running", false);
-        }
+            movement.x = Input.GetAxisRaw("Horizontal");
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.6f, groundLayer);
-        Debug.Log(isGrounded);
+            if (movement.x != 0)
+            {
+                animator.SetBool("Running", true);
+            }
+            else
+            {
+                animator.SetBool("Running", false);
+            }
 
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
-        { 
-            Jump();
-        }
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.6f, groundLayer);
+            // Debug.Log(isGrounded);
 
-        if (movement.x > 0) {
-            spriteRenderer.flipX = false;
-        }
-        else if (movement.x < 0) {
-            spriteRenderer.flipX = true;
-        } else {
-            spriteRenderer.flipX = false;
+            if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+            { 
+                Jump();
+            }
+
+            if (movement.x > 0) {
+                spriteRenderer.flipX = false;
+            }
+            else if (movement.x < 0) {
+                spriteRenderer.flipX = true;
+            } else {
+                spriteRenderer.flipX = false;
+            }
         }
 
     }
