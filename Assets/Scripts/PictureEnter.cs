@@ -67,6 +67,7 @@ public class PictureEnter : MonoBehaviour
     // Update is called once per frame
     void onDoubleClick()
     {
+        Debug.Log("List<int>中的所有值: " + string.Join(", ", GameManager.picture));
         CameraFocusAt(sphere, () =>
         {
             mainCamera.enabled = false;
