@@ -11,6 +11,7 @@ public class PictureEnter : MonoBehaviour
     public ExButton exButton;
     public Camera mainCamera;
     public Camera overheadCamera;
+    public Camera picCamera;
     public Transform sphere;
     private Texture2D screenShot;
     private Image image;
@@ -25,18 +26,11 @@ public class PictureEnter : MonoBehaviour
     void Update()
     {
         // 检测键盘输入，这里以按下空格键（KeyCode.Space）为例
-        if ((GameManager.is_enter && Input.GetKeyDown(KeyCode.Space)) || GameManager.is_level_over)
+        if (GameManager.is_enter && Input.GetKeyDown(KeyCode.Space))
         {
-            screenShot = CaptureCamera(overheadCamera, new Rect(0, 0, 1920, 1080));
+            screenShot = CaptureCamera(picCamera, new Rect(0, 0, 1920, 1080));
             Sprite sprite = Sprite.Create(screenShot, new Rect(0, 0, screenShot.width, screenShot.height), Vector2.zero);
             image.sprite = sprite;
-            if (!GameManager.is_level_over)
-            {
-                overheadCamera.enabled = false;
-                mainCamera.enabled = true;
-                GameManager.is_enter = false;
-                mainCamera.transform.DOMove(GameManager.camera_pos, 0.5f);
-            }
         }
     }
     

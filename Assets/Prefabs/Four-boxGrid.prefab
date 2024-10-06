@@ -562,6 +562,7 @@ MonoBehaviour:
   exButton: {fileID: 6408243495986063184}
   mainCamera: {fileID: 0}
   overheadCamera: {fileID: 0}
+  picCamera: {fileID: 0}
   sphere: {fileID: 6524721887971249849}
 --- !u!114 &5516150488323992806 stripped
 MonoBehaviour:
@@ -720,6 +721,7 @@ MonoBehaviour:
   exButton: {fileID: 7834939089506135302}
   mainCamera: {fileID: 0}
   overheadCamera: {fileID: 0}
+  picCamera: {fileID: 0}
   sphere: {fileID: 6656842968009853134}
 --- !u!114 &7834939089506135302
 MonoBehaviour:
@@ -1111,4 +1113,5 @@ MonoBehaviour:
   exButton: {fileID: 4199265133373641706}
   mainCamera: {fileID: 0}
   overheadCamera: {fileID: 0}
+  picCamera: {fileID: 0}
   sphere: {fileID: 3076666295920787807}
