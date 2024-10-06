@@ -14,6 +14,6 @@ public class level0_hole : MonoBehaviour
     void OnCollisionEnter2D()
     {
         GameManager.is_level_over = true;
-        Debug.Log("You Win!");
+        Debug.Log("You Pass Level 0 !");
     }
 }

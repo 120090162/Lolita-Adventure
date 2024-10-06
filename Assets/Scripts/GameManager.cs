@@ -24,7 +24,9 @@ static class GameManager
                 _level = value;
                 if (_level == 1)
                 {
-                    picture = new List<int>(){ 0, 1, 2, -1};
+                    picture = new List<int>(){ 0, 1, 2, 3, 4, -1};
+                    puzzle_col = 3;
+                    puzzle_row = 2;
                 }else if (_level == 2)
                 {
                     picture = new List<int>(){ 4, 5, 6, 7};
