@@ -4,6 +4,7 @@ ProjectSettings/
 Temp/
 .vscode/
 Logs/
+UserSettings/
 #
 # 忽略Unity生成的文件
 *.csproj
