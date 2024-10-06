@@ -25,16 +25,18 @@ public class PictureEnter : MonoBehaviour
     void Update()
     {
         // 检测键盘输入，这里以按下空格键（KeyCode.Space）为例
-        if (Input.GetKeyDown(KeyCode.Space))
+        if ((GameManager.is_enter && Input.GetKeyDown(KeyCode.Space)) || GameManager.is_level_over)
         {
             screenShot = CaptureCamera(overheadCamera, new Rect(0, 0, 1920, 1080));
             Sprite sprite = Sprite.Create(screenShot, new Rect(0, 0, screenShot.width, screenShot.height), Vector2.zero);
             image.sprite = sprite;
-            mainCamera.enabled = true;
-            overheadCamera.enabled = false;
-            Debug.Log(PlayerPrefs.GetInt("id"));
-            Debug.Log(PlayerPrefs.GetFloat("x"));
-            Debug.Log(PlayerPrefs.GetFloat("y"));
+            if (!GameManager.is_level_over)
+            {
+                overheadCamera.enabled = false;
+                mainCamera.enabled = true;
+                GameManager.is_enter = false;
+                mainCamera.transform.DOMove(GameManager.camera_pos, 0.5f);
+            }
         }
     }
     
@@ -75,6 +77,7 @@ public class PictureEnter : MonoBehaviour
         {
             mainCamera.enabled = false;
             overheadCamera.enabled = true;
+            GameManager.is_enter = true;
         });
     }
     // void onClick()
