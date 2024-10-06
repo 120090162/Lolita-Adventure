@@ -13,6 +13,6 @@ public class level0_hole : MonoBehaviour
 
     void OnCollisionEnter2D()
     {
-        ;
+        Debug.Log("You Win!");
     }
 }
