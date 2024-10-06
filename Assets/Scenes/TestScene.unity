@@ -2846,9 +2846,33 @@ PrefabInstance:
       propertyPath: overheadCamera
       value: 
       objectReference: {fileID: 1865008640}
+    - target: {fileID: 4496588747169672573, guid: d1b171087fbec5e418cdfe982c9d3bc0, type: 3}
+      propertyPath: id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496588747169672573, guid: d1b171087fbec5e418cdfe982c9d3bc0, type: 3}
+      propertyPath: pos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238899666122138860, guid: d1b171087fbec5e418cdfe982c9d3bc0, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238899666122138860, guid: d1b171087fbec5e418cdfe982c9d3bc0, type: 3}
+      propertyPath: pos
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5539417132387691875, guid: d1b171087fbec5e418cdfe982c9d3bc0, type: 3}
       propertyPath: m_Name
       value: level0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380433045247874817, guid: d1b171087fbec5e418cdfe982c9d3bc0, type: 3}
+      propertyPath: id
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380433045247874817, guid: d1b171087fbec5e418cdfe982c9d3bc0, type: 3}
+      propertyPath: pos
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6436810393141238584, guid: d1b171087fbec5e418cdfe982c9d3bc0, type: 3}
       propertyPath: m_Camera

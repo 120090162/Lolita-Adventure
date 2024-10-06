@@ -5,6 +5,7 @@ using UnityEngine;
 public class level0_apple : MonoBehaviour
 {
     public Vector3 ApplePositon;
+    public GameObject lightApparent;
     
     void Start()
     {
@@ -14,5 +15,6 @@ public class level0_apple : MonoBehaviour
     void OnCollisionEnter2D()
     {
         Destroy(gameObject);
+        lightApparent.SetActive(true);
     }
 }
