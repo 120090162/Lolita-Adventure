@@ -1288,7 +1288,7 @@ Transform:
   m_GameObject: {fileID: 724661233}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.67, y: 7.22, z: 1.63}
+  m_LocalPosition: {x: -28.67, y: 6.47, z: -3.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1307,6 +1307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  overheadCamera: {fileID: 1865008640}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
