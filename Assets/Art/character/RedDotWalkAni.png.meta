@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,18 +108,392 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RedDotWalkAni_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1917
+        width: 380
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43610cad202162b4ab8c5c433e918cdf
+      internalID: -1883795417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_1
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2220
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d4e7a6c3a16b84eaeba916eb937c0a
+      internalID: -1667143410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_2
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1917
+        width: 387
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dc2b406907e2145a6e6bf451f93ff1
+      internalID: -404815327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_3
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1908
+        width: 389
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e222de14575f4f41a58427960878834
+      internalID: -248608910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_4
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1913
+        width: 379
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5784309b41c2e47911270c596b40f3
+      internalID: 763657517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_5
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1917
+        width: 375
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b5846c0b6c46d4a8b728e45f85a35e
+      internalID: 720682147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_6
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 2208
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4904052a21e4f74badb95b2c92ee58c
+      internalID: 510616347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1285
+        width: 411
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a985259fbc91af147a041423e8f6f417
+      internalID: 868676468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1281
+        width: 411
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772292ba076034b48b7f75ac00469330
+      internalID: -1913146533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_9
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1591
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41111b26bc366b94bb9727616f95fd70
+      internalID: -111296594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_10
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1281
+        width: 389
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07e9b5016b3ac04a9cd497e0708b993
+      internalID: -1519954483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_11
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 1274
+        width: 390
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb7728d3bb6d8048ab0a8b4e95527fd
+      internalID: -281414174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_12
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1281
+        width: 377
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dfdfd559ed9384bad5bba6d08024d9
+      internalID: -348621437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_13
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1581
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1433d67e142ac40be3d29c83c4a4cd
+      internalID: -1879449356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_14
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1572
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1023386fbb1ed49ad9936315084aa5
+      internalID: -1087904850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 677
+        width: 375
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e954c06f02c9d4a91a2a247fb4b128
+      internalID: 2051841633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDotWalkAni_16
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 678
+        width: 411
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02ef236e5c6cb64aab76d79e1b070b2
+      internalID: -1073432747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1c97541e29d5d234c8a31651d86b003d
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RedDotWalkAni_0: -1883795417
+      RedDotWalkAni_1: -1667143410
+      RedDotWalkAni_10: -1519954483
+      RedDotWalkAni_11: -281414174
+      RedDotWalkAni_12: -348621437
+      RedDotWalkAni_13: -1879449356
+      RedDotWalkAni_14: -1087904850
+      RedDotWalkAni_15: 2051841633
+      RedDotWalkAni_16: -1073432747
+      RedDotWalkAni_2: -404815327
+      RedDotWalkAni_3: -248608910
+      RedDotWalkAni_4: 763657517
+      RedDotWalkAni_5: 720682147
+      RedDotWalkAni_6: 510616347
+      RedDotWalkAni_7: 868676468
+      RedDotWalkAni_8: -1913146533
+      RedDotWalkAni_9: -111296594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

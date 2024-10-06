@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1306040231516128254}
   - component: {fileID: 8508916359144425991}
   - component: {fileID: 7324544099723344960}
+  - component: {fileID: 696329210197661086}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -76,8 +77,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8228022431a7de24888f446cb98409c5, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: -1883795417, guid: e89366f71a8a59243967a8878c5d39e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,11 +102,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 7
+  jumpForce: 4.5
   groundCheck: {fileID: 0}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 36
+    m_Bits: 32
 --- !u!114 &1306040231516128254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,7 +145,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5206474052323411410}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -199,7 +200,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.36, y: 3.95}
+    oldSize: {x: 3.8, y: 3.9004176}
     newSize: {x: 4.36, y: 3.95}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -208,3 +209,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.0629883, y: 3.999412}
   m_EdgeRadius: 0
+--- !u!95 &696329210197661086
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5206474052323411410}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e2ed738851b15d7468935dce21f63cff, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
