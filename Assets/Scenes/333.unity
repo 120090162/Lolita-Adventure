@@ -413,6 +413,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1253700505086048803, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253700505086048803, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
+      propertyPath: pos
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3976121718383541741, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -460,6 +468,14 @@ PrefabInstance:
     - target: {fileID: 4410332280519026653, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163677333264055202, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
+      propertyPath: id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163677333264055202, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
+      propertyPath: pos
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5883435710123447475, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
       propertyPath: m_AnchorMax.y
@@ -512,6 +528,14 @@ PrefabInstance:
     - target: {fileID: 7870019885793756369, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
       propertyPath: m_Name
       value: Level0_Four-boxGrid
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331290695913340571, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
+      propertyPath: id
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331290695913340571, guid: 0529ca2022f045244938d758cd5303bb, type: 3}
+      propertyPath: pos
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
