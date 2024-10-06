@@ -9,14 +9,12 @@ public class PictureEnter : MonoBehaviour
     public ExButton exButton;
     public Camera mainCamera;
     public Camera overheadCamera;
-    private Plane _plane;
     public Transform sphere;
     // Start is called before the first frame update
     void Start()
     {
         exButton.OnDoubleClick = onDoubleClick;
         exButton.OnClick = onClick;
-        _plane = new Plane(Vector3.up, Vector3.zero);
     }
     
     void Update()
@@ -57,15 +55,6 @@ public class PictureEnter : MonoBehaviour
     /// <returns></returns>
     private Vector3 CalcScreenCenterPosOnPanel()
     {
-        // var ray = mainCamera.ScreenPointToRay(new Vector3((float) Screen.width / 2, (float)Screen.height / 2, 0));
-        // if (_plane.Raycast(ray, out var distance))
-        // {
-        //     return ray.GetPoint(distance);
-        // }
-        // else
-        // {
-        //     return Vector3.zero;
-        // }
-        return mainCamera.ScreenPointToRay(Input.mousePosition).direction;
+        return mainCamera.ScreenPointToRay(Input.mousePosition).direction.normalized;
     }
 }
