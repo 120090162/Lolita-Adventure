@@ -35,6 +35,7 @@ public class Player1 : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Space))
             {
                 GameManager.SetPlayerId(transform.localPosition);
+                GameManager.is_enter = false;
             }
             
             movement.x = Input.GetAxisRaw("Horizontal");

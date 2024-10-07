@@ -16,6 +16,6 @@ public class level0_apple : MonoBehaviour
     {
         Destroy(gameObject);
         lightApparent.SetActive(true);
-        Debug.Log("Apple is eaten");
+        // Debug.Log("Apple is eaten");
     }
 }

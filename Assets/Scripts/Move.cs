@@ -19,7 +19,6 @@ public class Move : MonoBehaviour
     {
         if (GameManager.is_enter && Input.GetKeyDown(KeyCode.Space))
         {
-            GameManager.is_enter = false;
             overheadCamera.enabled = false;
             mainCamera.enabled = true;
             mainCamera.transform.DOMove(GameManager.camera_pos, 0.5f);
