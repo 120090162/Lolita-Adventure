@@ -15,6 +15,10 @@ static class GameManager
     public static bool is_game_over = false;
     public static bool GameIsPaused = false;
     
+    // 结尾收藏
+    public static int count = 0;
+    public static int collect_counts = 0;
+    
     // 定义一个公共属性Level，用于监控_level变量的值变化
     public static int Level
     {
@@ -51,7 +55,7 @@ static class GameManager
                     target_picture = new List<int>(){ 0, 1, 2, 3, 4, -1,5, 6, 7};
                     puzzle_col = 3;
                     puzzle_row = 3;
-                    player_pos = new Vector3(-5.26f,4.93f,0);
+                    player_pos = new Vector3(-18f,-20f,0);
                 }
                 else
                 {
@@ -196,6 +200,10 @@ static class GameManager
                     player_id = picture[8];
                 }
             }
+        }
+        else
+        {
+            player_id = 0;
         }
     }
 }

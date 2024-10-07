@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Move : MonoBehaviour
@@ -22,6 +23,11 @@ public class Move : MonoBehaviour
     private void Update()
     {
         scoreText.text = "Steps: " + (400 - GameManager.steps);
+        if (GameManager.is_game_over)
+        {
+            DOTween.PauseAll();
+            SceneManager.LoadScene(3);
+        }
         if (GameManager.is_enter && Input.GetKeyDown(KeyCode.F))
         {
             overheadCamera.enabled = false;
@@ -31,6 +37,7 @@ public class Move : MonoBehaviour
         
         if(GameManager.is_level_over || GameManager.steps >= 400)
         {
+            GameManager.count += GameManager.steps;
             GameManager.steps = 0;
             GameManager.is_enter = false;
             GameManager.is_level_over = false;
