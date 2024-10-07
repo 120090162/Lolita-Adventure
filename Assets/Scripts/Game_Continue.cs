@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class Game_Continue : MonoBehaviour
@@ -8,5 +9,7 @@ public class Game_Continue : MonoBehaviour
     public void Con()
     {
         Time.timeScale = 1;
+        DOTween.PlayAll();
     }
+    
 }

@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class Player1 : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float jumpForce = 4.5f;
+    public float jumpForce = 5f;
     [SerializeField] private Transform groundCheck;
     public LayerMask groundLayer;
     

@@ -10,7 +10,7 @@ public class Move : MonoBehaviour
     public float speed = 10.0f;
     private Camera mainCamera;
     public Camera overheadCamera;
-    public GameObject scoreText;
+    public TextMeshProUGUI scoreText;
     private AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class Move : MonoBehaviour
     }
     private void Update()
     {
-        scoreText.GetComponent<TextMeshPro>().text = "Steps: " + GameManager.steps;
+        scoreText.text = "Steps: " + (400 - GameManager.steps);
         if (GameManager.is_enter && Input.GetKeyDown(KeyCode.Space))
         {
             overheadCamera.enabled = false;
@@ -28,7 +28,7 @@ public class Move : MonoBehaviour
             mainCamera.transform.DOMove(GameManager.camera_pos, 0.5f);
         }
         
-        if(GameManager.is_level_over || GameManager.steps >= 100)
+        if(GameManager.is_level_over || GameManager.steps >= 400)
         {
             GameManager.steps = 0;
             GameManager.is_enter = false;

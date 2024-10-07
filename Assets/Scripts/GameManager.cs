@@ -13,6 +13,7 @@ static class GameManager
     public static List<int> target_picture = new List<int>() { 0, 1, 2, -1 };
     public static bool is_level_over = false;
     public static bool is_game_over = false;
+    public static bool GameIsPaused = false;
     
     // 定义一个公共属性Level，用于监控_level变量的值变化
     public static int Level

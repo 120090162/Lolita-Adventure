@@ -1,19 +1,19 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine.SceneManagement;
 public class HelpMenu : MonoBehaviour
 {
-    public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject playButton;
     public GameObject pauseButton;
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (GameIsPaused)
+            if (GameManager.GameIsPaused)
             {
                 playButton.SetActive(false);
                 pauseButton.SetActive(true);
@@ -31,28 +31,29 @@ public class HelpMenu : MonoBehaviour
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
+        GameManager.GameIsPaused = false;
         Time.timeScale = 1f;
-        GameIsPaused = false;
-
+        DOTween.PlayAll();
     }
 
     void Pause()
     {
-        pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        GameIsPaused = true;
+        DOTween.PauseAll();
+        GameManager.GameIsPaused = true;
+        pauseMenuUI.SetActive(true);
 
     }
 
     public void LoadMenu()
     {
-        Time.timeScale = 1f;
+        // Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
     {
-        Time.timeScale = 1f;
+        // Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 }
