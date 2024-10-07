@@ -6,7 +6,8 @@ public class HelpMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
-
+    public GameObject playButton;
+    public GameObject pauseButton;
     // Update is called once per frame
     void Update()
     {
@@ -14,11 +15,14 @@ public class HelpMenu : MonoBehaviour
         {
             if (GameIsPaused)
             {
+                playButton.SetActive(false);
+                pauseButton.SetActive(true);
                 Resume();
             }
             else
             {
-
+                playButton.SetActive(true);
+                pauseButton.SetActive(false);
                 Pause();
             }
         }

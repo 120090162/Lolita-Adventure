@@ -63,6 +63,7 @@ static class GameManager
     public static int player_id = 0;
     public static Vector3 player_pos = new Vector3(0, 0, 0);
     public static bool is_enter = false; // 是否进入图片
+    public static int steps = 0; // 步数
     
     // 相机信息
     public static Vector3 camera_pos = new Vector3(-28.67f, 6.47f, -3.16f);

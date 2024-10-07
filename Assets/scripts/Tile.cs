@@ -49,6 +49,8 @@ public class Tile : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
                 GameManager.picture[pos] = t.id;
                 GameManager.picture[t.pos] = id;
                 (pos, t.pos) = (t.pos, pos);
+                
+                GameManager.steps++;
                 return;
             }
         }
