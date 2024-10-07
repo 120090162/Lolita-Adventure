@@ -32,17 +32,4 @@ public class PuzzleChange : MonoBehaviour
         }
         GameManager.player_pos = player.transform.localPosition;
     }
-    public void ResetPuzzle()
-    {
-        foreach (var item in items)
-        {
-            int id = item.GetComponent<ItemPos>().id;
-            int pos = GameManager.target_picture.IndexOf(id);
-            if (pos != -1)
-            {
-                    item.transform.SetParent(blocks[pos].transform);
-                    item.transform.position = blocks[pos].transform.position;
-            }
-        }
-    }
 }

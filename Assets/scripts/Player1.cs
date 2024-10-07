@@ -34,8 +34,9 @@ public class Player1 : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.F))
             {
-                GameManager.SetPlayerId(transform.localPosition);
                 GameManager.is_enter = false;
+                GameManager.SetPlayerId(transform.localPosition);
+                // Debug.Log(GameManager.player_id);
             }
             
             movement.x = Input.GetAxisRaw("Horizontal");

@@ -26,10 +26,11 @@ static class GameManager
                 _level = value;
                 if (_level == 1)
                 {
-                    picture = new List<int>(){ 0, 1, 2, 3, 4, -1};
-                    target_picture = new List<int>() { 0, 1, 2, 3, 4, -1 };
+                    picture = new List<int>(){ 3, 0, 4, -1, 2, 1};
+                    target_picture = new List<int>() { 0, 1, 2, 3, -1, 4 };
                     puzzle_col = 3;
                     puzzle_row = 2;
+                    player_pos = new Vector3(-25.15f,11.59f,0);
                 }else if (_level == 2)
                 {
                     picture = new List<int>(){ 0, 1, 2, 3, 4, 5, 6, 7, -1};
@@ -116,7 +117,39 @@ static class GameManager
             }
         }else if(Level == 1)
         {
-            player_id = 1;
+            if (pos.x <= -10f)
+            {
+                if (pos.y >= 0f)
+                {
+                    player_id = picture[0];
+                }
+                else
+                {
+                    player_id = picture[3];
+                }
+            }
+            else if(pos.x <= 10f)
+            {
+                if (pos.y >= 0f)
+                {
+                    player_id = picture[1];
+                }
+                else
+                {
+                    player_id = picture[4];
+                }
+            }
+            else
+            {
+                if(pos.y >= 0f)
+                {
+                    player_id = picture[2];
+                }
+                else
+                {
+                    player_id = picture[5];
+                }
+            }
         }else if(Level == 2){
             player_id = 2;
         }else if(Level == 3){

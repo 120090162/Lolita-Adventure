@@ -12,7 +12,7 @@ public class level0_apple : MonoBehaviour
         ApplePositon = transform.position;
     }
 
-    void OnCollisionEnter2D()
+    private void OnCollisionEnter2D()
     {
         Destroy(gameObject);
         lightApparent.SetActive(true);

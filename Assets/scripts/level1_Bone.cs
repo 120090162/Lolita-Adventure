@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class level1_Bone : MonoBehaviour
@@ -12,8 +14,8 @@ public class level1_Bone : MonoBehaviour
         BonePositon = transform.position;
     }
 
-    void OnCollisionEnter2D()
-    {
+    void OnCollisionEnter2D() {
         Destroy(gameObject);
     }
+
 }
