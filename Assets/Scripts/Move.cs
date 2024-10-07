@@ -44,11 +44,11 @@ public class Move : MonoBehaviour
                 mainCamera.transform.DORotate(new Vector3(0, 90, 0), 0.5f).OnComplete(() =>
                 {
                     // 在旋转完成后向前移动5个单位
-                    mainCamera.transform.DOMove(mainCamera.transform.position + mainCamera.transform.forward * 37.5f, 1.5f).OnComplete(() =>
+                    mainCamera.transform.DOMove(mainCamera.transform.position + mainCamera.transform.forward * 35f, 1.5f).OnComplete(() =>
                     {
                         // 相机向左旋转90度，并使用DOTween实现平滑旋转效果
                         mainCamera.transform.DORotate(new Vector3(0, 0, 0), 0.5f);
-                        GameManager.camera_pos += new Vector3(37.5f,0,0);
+                        GameManager.camera_pos += new Vector3(35f,0,0);
                         audioSource.Stop();
                         si.SetLastPuzzleFalse();
                     });

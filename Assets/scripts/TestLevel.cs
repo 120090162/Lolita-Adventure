@@ -14,14 +14,7 @@ public class TestLevel : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab)) {
-            Debug.Log("Enter Game");
-            GameManager.is_enter = true;
-        }
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            GameManager.Level++;
-            Debug.Log("Level: " + GameManager.Level);
+            GameManager.is_level_over = true;
         }
     }
 }

@@ -40,19 +40,18 @@ static class GameManager
                     player_pos = new Vector3(-23.5f,-20.31f,0);
                 }else if (_level == 3)
                 {
-                    picture = new List<int>(){ 8, 9, 10, 11};
+                    picture = new List<int>(){ 5, 1, 2, 6, 7, 0, 4, 3, -1};
+                    target_picture = new List<int>(){ 0, 1, 2, 3, 4, 5, 6, 7, -1};
+                    puzzle_col = 3;
+                    puzzle_row = 3;
+                    player_pos = new Vector3(-5.26f,4.93f,0);
                 }else if (_level == 4)
                 {
-                    picture = new List<int>() { 12, 13, 14, 15 };
-                }else if (_level == 5)
-                {
-                    picture = new List<int>() { 16, 17, 18, 19 };
-                }else if (_level == 6)
-                {
-                    picture = new List<int>() { 20, 21, 22, 23 };
-                }else if (_level == 7)
-                {
-                    picture = new List<int>() { 24, 25, 26, 27 };
+                    picture = new List<int>(){ 0, 1, 2, 3, 4, -1, 5, 6, 7};
+                    target_picture = new List<int>(){ 0, 1, 2, 3, 4, -1,5, 6, 7};
+                    puzzle_col = 3;
+                    puzzle_row = 3;
+                    player_pos = new Vector3(-5.26f,4.93f,0);
                 }
                 else
                 {
@@ -151,7 +150,7 @@ static class GameManager
                     player_id = picture[5];
                 }
             }
-        }else if(Level == 2){
+        }else if(Level == 2 || Level == 3 || Level == 4){
             if (pos.x <= -10f)
             {
                 if (pos.y >= 10f)
@@ -197,16 +196,6 @@ static class GameManager
                     player_id = picture[8];
                 }
             }
-        }else if(Level == 3){
-            player_id = 3;
-        }else if(Level == 4){
-            player_id = 4;
-        }else if(Level == 5){
-            player_id = 5;
-        }else if(Level == 6){
-            player_id = 6;
-        }else if(Level == 7){
-            player_id = 7;
         }
     }
 }
