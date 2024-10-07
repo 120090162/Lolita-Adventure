@@ -32,7 +32,7 @@ public class Player1 : MonoBehaviour
     {
         if (GameManager.is_enter)
         {
-            if(Input.GetKeyDown(KeyCode.Space))
+            if(Input.GetKeyDown(KeyCode.F))
             {
                 GameManager.SetPlayerId(transform.localPosition);
                 GameManager.is_enter = false;

@@ -21,7 +21,7 @@ public class Move : MonoBehaviour
     private void Update()
     {
         scoreText.text = "Steps: " + (400 - GameManager.steps);
-        if (GameManager.is_enter && Input.GetKeyDown(KeyCode.Space))
+        if (GameManager.is_enter && Input.GetKeyDown(KeyCode.F))
         {
             overheadCamera.enabled = false;
             mainCamera.enabled = true;
@@ -37,7 +37,7 @@ public class Move : MonoBehaviour
             overheadCamera.enabled = false;
             mainCamera.enabled = true;
             GameManager.is_enter = false;
-            mainCamera.transform.DOMove(GameManager.camera_pos, 0.5f).OnComplete((() =>
+            mainCamera.transform.DOMove(GameManager.camera_pos, 0.5f).OnComplete(() =>
             {
                 mainCamera.transform.DORotate(new Vector3(0, 90, 0), 0.5f).OnComplete(() =>
                 {
@@ -50,7 +50,7 @@ public class Move : MonoBehaviour
                     });
                     audioSource.Play();
                 });
-            }));
+            });
         }
     }
 }

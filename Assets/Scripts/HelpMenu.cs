@@ -15,14 +15,10 @@ public class HelpMenu : MonoBehaviour
         {
             if (GameManager.GameIsPaused)
             {
-                playButton.SetActive(false);
-                pauseButton.SetActive(true);
                 Resume();
             }
             else
             {
-                playButton.SetActive(true);
-                pauseButton.SetActive(false);
                 Pause();
             }
         }
@@ -30,28 +26,25 @@ public class HelpMenu : MonoBehaviour
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
-        GameManager.GameIsPaused = false;
         Time.timeScale = 1f;
         DOTween.PlayAll();
+        pauseMenuUI.SetActive(false);
+        GameManager.GameIsPaused = false;
+        playButton.SetActive(true);
+        pauseButton.SetActive(false);
     }
 
-    void Pause()
+    public void Pause()
     {
-        Time.timeScale = 0f;
-        DOTween.PauseAll();
+        playButton.SetActive(false);
+        pauseButton.SetActive(true);
         GameManager.GameIsPaused = true;
         pauseMenuUI.SetActive(true);
-
+        DOTween.PauseAll();
+        Time.timeScale = 0f;
     }
 
     public void LoadMenu()
-    {
-        // Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
-    }
-
-    public void QuitGame()
     {
         // Time.timeScale = 1f;
         SceneManager.LoadScene(0);

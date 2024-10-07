@@ -27,7 +27,7 @@ public class PictureEnter : MonoBehaviour
     void Update()
     {
         // 检测键盘输入，这里以按下空格键（KeyCode.Space）为例
-        if (GameManager.is_level_over || (GameManager.is_enter && Input.GetKeyDown(KeyCode.Space)))
+        if (GameManager.is_level_over || (GameManager.is_enter && Input.GetKeyDown(KeyCode.F)))
         {
             screenShot = CaptureCamera(picCamera, new Rect(0, 0, 1920, 1080));
             Sprite sprite = Sprite.Create(screenShot, new Rect(0, 0, screenShot.width, screenShot.height), Vector2.zero);
