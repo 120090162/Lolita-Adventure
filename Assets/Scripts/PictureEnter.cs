@@ -13,6 +13,7 @@ public class PictureEnter : MonoBehaviour
     public Camera overheadCamera;
     public Camera picCamera;
     public Transform sphere;
+    public PuzzleChange puzzleChange;
     private Texture2D screenShot;
     private Image image;
     // Start is called before the first frame update
@@ -51,8 +52,9 @@ public class PictureEnter : MonoBehaviour
         //ps: -------------------------------------------------------------------
 
         RenderTexture.active = rt;//激活这个rt, 并从中中读取像素。
-        Texture2D screenShot = new Texture2D((int)rect.width, (int)rect.height, TextureFormat.RGB24, false);
-        screenShot.ReadPixels(rect, 0, 0);//注：这个时候，它是从RenderTexture.active中读取像素
+        Rect rightHalfRect = new Rect(rect.width / 2, 0, rect.width / 2, rect.height);
+        Texture2D screenShot = new Texture2D((int)rightHalfRect.width, (int)rightHalfRect.height, TextureFormat.RGB24, false);
+        screenShot.ReadPixels(rightHalfRect, 0, 0);//注：这个时候，它是从RenderTexture.active中读取像素
         screenShot.Apply();
 
         //重置相关参数，以使用camera继续在屏幕上显示
@@ -67,6 +69,8 @@ public class PictureEnter : MonoBehaviour
     // Update is called once per frame
     void onDoubleClick()
     {
+        puzzleChange.ChangePuzzle();
+        // Debug.Log("List<int>中的所有值: " + string.Join(", ", GameManager.picture));
         CameraFocusAt(sphere, () =>
         {
             mainCamera.enabled = false;

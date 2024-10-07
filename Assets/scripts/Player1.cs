@@ -7,10 +7,12 @@ public class Player1 : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 4.5f;
-    public Transform groundCheck;
+    [SerializeField] private Transform groundCheck;
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
     private Vector2 movement;
     private Vector3 startPosition;
     private bool isGrounded = true;
@@ -19,6 +21,8 @@ public class Player1 : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         startPosition = transform.position;
 
     }
@@ -26,15 +30,42 @@ public class Player1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
+        if (GameManager.is_enter)
+        {
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                GameManager.SetPlayerId(transform.localPosition);
+            }
+            
+            movement.x = Input.GetAxisRaw("Horizontal");
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-        Debug.Log(isGrounded);
+            if (movement.x != 0)
+            {
+                animator.SetBool("Running", true);
+            }
+            else
+            {
+                animator.SetBool("Running", false);
+            }
 
-        if (Input.GetKeyDown(KeyCode.W) && (!isGrounded))
-        { 
-            Jump();
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.6f, groundLayer);
+            // Debug.Log(isGrounded);
+
+            if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+            { 
+                Jump();
+            }
+
+            if (movement.x > 0) {
+                spriteRenderer.flipX = false;
+            }
+            else if (movement.x < 0) {
+                spriteRenderer.flipX = true;
+            } else {
+                spriteRenderer.flipX = false;
+            }
         }
+
     }
 
     // FixedUpdate is called at a fixed interval and is independent of frame rate

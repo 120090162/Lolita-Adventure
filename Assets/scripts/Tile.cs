@@ -7,6 +7,8 @@ using UnityEngine.EventSystems;
 public class Tile : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public Transform originalParent;
+    public int id;
+    public int pos;
     Vector3 originalPosition;
     Vector3 targetPosition;
 
@@ -33,8 +35,8 @@ public class Tile : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         if (eventData.pointerCurrentRaycast.gameObject.name == "Block")
         {
             targetPosition = eventData.pointerCurrentRaycast.gameObject.transform.parent.position;
-
-            if (!(Math.Abs(targetPosition.x - originalPosition.x) >= 20 && Math.Abs(targetPosition.y - originalPosition.y) >= 20))
+            Tile t = eventData.pointerCurrentRaycast.gameObject.GetComponent<Tile>();
+            if (GameManager.CanSwapWithEmpty(pos,t.pos))
             {
                 transform.SetParent(eventData.pointerCurrentRaycast.gameObject.transform.parent);
                 transform.position =
@@ -42,6 +44,11 @@ public class Tile : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
                 eventData.pointerCurrentRaycast.gameObject.transform.SetParent(originalParent);
                 eventData.pointerCurrentRaycast.gameObject.transform.position = originalParent.position;
                 GetComponent<CanvasGroup>().blocksRaycasts = true;
+                
+                // 交换两个方块的位置
+                GameManager.picture[pos] = t.id;
+                GameManager.picture[t.pos] = id;
+                (pos, t.pos) = (t.pos, pos);
                 return;
             }
         }
