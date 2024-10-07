@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dfedcdf98d71f9c4880d18c847e3c072
+guid: c79a10a2a6d51d54694071e670040aef
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,40 +108,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: level2_kite_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1365.3333
-        width: 682.6667
-        height: 682.6667
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08d751cfb9821fb4da66ab7bd76c95c3
-      internalID: 283106487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      level2_kite_0: 283106487
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

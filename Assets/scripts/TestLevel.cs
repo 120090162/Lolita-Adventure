@@ -13,10 +13,15 @@ public class TestLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Tab)) {
+            Debug.Log("Enter Game");
+            GameManager.is_enter = true;
+        }
+
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Space key was pressed.");
             GameManager.Level++;
+            Debug.Log("Level: " + GameManager.Level);
         }
     }
 }
