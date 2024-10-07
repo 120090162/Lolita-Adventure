@@ -56,8 +56,6 @@ static class GameManager
     
     // 玩家信息
     public static int player_id = 0;
-    public static float player_pos_x = 0.0f;
-    public static float player_pos_y = 0.0f;
     public static bool is_enter = false; // 是否进入图片
     
     // 相机信息
@@ -80,5 +78,49 @@ static class GameManager
         }
 
         return false;
+    }
+    
+    public static void SetPlayerId(Vector3 pos)
+    {
+        if(Level == 0)
+        {
+            if (pos.x <= 0f)
+            {
+                if (pos.y >= 0f)
+                {
+                    player_id = picture[0];
+                }
+                else
+                {
+                    player_id = picture[2];
+                }
+            }
+            else
+            {
+                if (pos.y >= 0f)
+                {
+                    player_id = picture[1];
+                }
+                else
+                {
+                    player_id = picture[3];
+                }
+            }
+        }else if(Level == 1)
+        {
+            player_id = 1;
+        }else if(Level == 2){
+            player_id = 2;
+        }else if(Level == 3){
+            player_id = 3;
+        }else if(Level == 4){
+            player_id = 4;
+        }else if(Level == 5){
+            player_id = 5;
+        }else if(Level == 6){
+            player_id = 6;
+        }else if(Level == 7){
+            player_id = 7;
+        }
     }
 }
