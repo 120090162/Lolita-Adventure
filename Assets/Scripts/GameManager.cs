@@ -33,10 +33,11 @@ static class GameManager
                     player_pos = new Vector3(-25.15f,11.59f,0);
                 }else if (_level == 2)
                 {
-                    picture = new List<int>(){ 0, 1, 2, 3, 4, 5, 6, 7, -1};
-                    target_picture = new List<int>(){ 0, 1, 2, 3, 4, 5, 6, 7, -1};
+                    picture = new List<int>(){ -1, 7, 1, 3, 4, 0, 5, 6, 2};
+                    target_picture = new List<int>(){ 0, 1, 2, -1, 3, 4, 5, 6, 7};
                     puzzle_col = 3;
                     puzzle_row = 3;
+                    player_pos = new Vector3(-23.5f,-20.31f,0);
                 }else if (_level == 3)
                 {
                     picture = new List<int>(){ 8, 9, 10, 11};
@@ -151,7 +152,51 @@ static class GameManager
                 }
             }
         }else if(Level == 2){
-            player_id = 2;
+            if (pos.x <= -10f)
+            {
+                if (pos.y >= 10f)
+                {
+                    player_id = picture[0];
+                }
+                else if(pos.y >= 0)
+                {
+                    player_id = picture[3];
+                }
+                else
+                {
+                    player_id = picture[6];
+                }
+            }
+            else if(pos.x <= 10f)
+            {
+                if (pos.y >= 10f)
+                {
+                    player_id = picture[1];
+                }
+                else if(pos.y >= 0)
+                {
+                    player_id = picture[4];
+                }
+                else
+                {
+                    player_id = picture[7];
+                }
+            }
+            else
+            {
+                if (pos.y >= 10f)
+                {
+                    player_id = picture[2];
+                }
+                else if(pos.y >= 0)
+                {
+                    player_id = picture[5];
+                }
+                else
+                {
+                    player_id = picture[8];
+                }
+            }
         }else if(Level == 3){
             player_id = 3;
         }else if(Level == 4){

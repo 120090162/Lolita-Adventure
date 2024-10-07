@@ -38,9 +38,9 @@ public class Move : MonoBehaviour
             overheadCamera.enabled = false;
             mainCamera.enabled = true;
             GameManager.is_enter = false;
-            si.SetCurrentPuzzleTrue();
             mainCamera.transform.DOMove(GameManager.camera_pos, 0.5f).OnComplete(() =>
             {
+                si.SetCurrentPuzzleTrue();
                 mainCamera.transform.DORotate(new Vector3(0, 90, 0), 0.5f).OnComplete(() =>
                 {
                     // 在旋转完成后向前移动5个单位
