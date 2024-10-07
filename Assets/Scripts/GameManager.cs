@@ -9,7 +9,8 @@ static class GameManager
     public static int puzzle_row = 2;
     public static int puzzle_col = 2;
     public static int score = 0;
-    public static List<int> picture = new List<int>(){ 0, 1, 2, -1};
+    public static List<int> picture = new List<int>(){ 0, 1, -1, 2};
+    public static List<int> target_picture = new List<int>() { 0, 1, 2, -1 };
     public static bool is_level_over = false;
     public static bool is_game_over = false;
     
@@ -25,6 +26,7 @@ static class GameManager
                 if (_level == 1)
                 {
                     picture = new List<int>(){ 0, 1, 2, 3, 4, -1};
+                    target_picture = new List<int>() { 0, 1, 2, 3, 4, -1 };
                     puzzle_col = 3;
                     puzzle_row = 2;
                 }else if (_level == 2)
@@ -58,6 +60,7 @@ static class GameManager
     
     // 玩家信息
     public static int player_id = 0;
+    public static Vector3 player_pos = new Vector3(0, 0, 0);
     public static bool is_enter = false; // 是否进入图片
     
     // 相机信息

@@ -9,7 +9,7 @@ public class Player1 : MonoBehaviour
     public float jumpForce = 4.5f;
     [SerializeField] private Transform groundCheck;
     public LayerMask groundLayer;
-
+    
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -51,7 +51,7 @@ public class Player1 : MonoBehaviour
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.6f, groundLayer);
             // Debug.Log(isGrounded);
 
-            if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+            if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
             { 
                 Jump();
             }
@@ -84,7 +84,7 @@ public class Player1 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("DeathWall"))
         {
-            transform.position = startPosition;
+            transform.localPosition = GameManager.player_pos;
         }
     }
 
