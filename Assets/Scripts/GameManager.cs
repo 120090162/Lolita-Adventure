@@ -4,6 +4,26 @@ using UnityEngine;
 
 static class GameManager
 {
+    public static void Reset()
+    {
+        Level = 0;
+        picture = new List<int>(){ 0, 1, -1, 2};
+        target_picture = new List<int>() { 0, 1, 2, -1 };
+        puzzle_col = 2;
+        puzzle_row = 2;
+        GameIsPaused = false;
+        score = 0;
+        is_game_over = false;
+        is_level_over = false;
+        player_id = 0;
+        player_pos = new Vector3(0, 0, 0);
+        is_enter = false;
+        steps = 0;
+        camera_pos = new Vector3(-28.67f, 6.47f, -3.16f);
+        count = 0;
+        collect_counts = 0;
+    }
+    
     // 场景信息
     private static int _level = 0;
     public static int puzzle_row = 2;
@@ -67,7 +87,7 @@ static class GameManager
     
     // 玩家信息
     public static int player_id = 0;
-    public static Vector3 player_pos = new Vector3(0, 0, 0);
+    public static Vector3 player_pos = new Vector3(-5.15f, 8.12f, 0);
     public static bool is_enter = false; // 是否进入图片
     public static int steps = 0; // 步数
     
@@ -89,7 +109,6 @@ static class GameManager
         {
             return true;
         }
-
         return false;
     }
     
@@ -157,11 +176,11 @@ static class GameManager
         }else if(Level == 2 || Level == 3 || Level == 4){
             if (pos.x <= -10f)
             {
-                if (pos.y >= 10f)
+                if (pos.y >= 12f)
                 {
                     player_id = picture[0];
                 }
-                else if(pos.y >= 0)
+                else if(pos.y >= -8f)
                 {
                     player_id = picture[3];
                 }
@@ -172,11 +191,11 @@ static class GameManager
             }
             else if(pos.x <= 10f)
             {
-                if (pos.y >= 10f)
+                if (pos.y >= 12f)
                 {
                     player_id = picture[1];
                 }
-                else if(pos.y >= 0)
+                else if(pos.y >= -8f)
                 {
                     player_id = picture[4];
                 }
@@ -187,11 +206,11 @@ static class GameManager
             }
             else
             {
-                if (pos.y >= 10f)
+                if (pos.y >= 12f)
                 {
                     player_id = picture[2];
                 }
-                else if(pos.y >= 0)
+                else if(pos.y >= -8f)
                 {
                     player_id = picture[5];
                 }

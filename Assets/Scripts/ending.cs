@@ -16,6 +16,7 @@ public class ending : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            GameManager.Reset();
             SceneManager.LoadScene(0);
         }
     }

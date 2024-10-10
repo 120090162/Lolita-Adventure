@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,13 @@ public class PuzzleChange : MonoBehaviour
     public GameObject root;
     public List<GameObject> items;
     public List<GameObject> blocks;
+    private Rigidbody2D rb;
+
+    private void Start()
+    {
+        rb = player.GetComponent<Rigidbody2D>();
+    }
+
     public void ChangePuzzle()
     {
         foreach (var item in items)
@@ -18,10 +26,12 @@ public class PuzzleChange : MonoBehaviour
             {
                 if (id == GameManager.player_id)
                 {
+                    rb.simulated = false;
                     player.transform.SetParent(item.transform);
                     item.transform.SetParent(blocks[pos].transform);
                     item.transform.position = blocks[pos].transform.position;
                     player.transform.SetParent(root.transform);
+                    rb.simulated = true;
                 }
                 else
                 {

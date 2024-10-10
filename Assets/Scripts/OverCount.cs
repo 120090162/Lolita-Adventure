@@ -15,6 +15,6 @@ public class OverCount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = "Souvenir Collection: " + GameManager.collect_counts + "\n" + "Total Steps: " + GameManager.count;
+        scoreText.text = "Souvenir Collection: " + GameManager.collect_counts + "\n" + "Total Steps: " + GameManager.count + "\n" + "Number of restoring picture(puzzle): " + GameManager.score;
     }
 }

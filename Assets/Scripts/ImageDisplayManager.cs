@@ -41,6 +41,6 @@ public class ImageDisplayManager : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         // 跳转到下一个场景
-        SceneManager.LoadScene(nextSceneName);
+        SceneManager.LoadScene(2);
     }
 }

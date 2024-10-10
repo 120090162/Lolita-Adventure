@@ -961,7 +961,7 @@ MonoBehaviour:
   - {fileID: 1726363152}
   - {fileID: 1220442252}
   displayTime: 2
-  nextSceneName: Testscene
+  nextSceneName: TestScene
 --- !u!224 &75626765703213089
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1718,7 +1718,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5090216105052236919}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc0b582ef72eda4097eabd179d27a19, type: 3}
   m_Name: 
