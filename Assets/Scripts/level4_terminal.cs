@@ -7,6 +7,7 @@ public class level4_terminal : MonoBehaviour
 {
     public Vector3 TerminalPositon;
     // private bool is_level_over = false;
+    private bool isFlag = true;
     void Start()
     {
         TerminalPositon = transform.position;   
@@ -19,13 +20,16 @@ public class level4_terminal : MonoBehaviour
     //     }
     // }
 
-    void OnCollisionEnter2D()
+    void OnCollisionStay2D()
     {
-        if (GameManager.picture.SequenceEqual(GameManager.target_picture))
+        if (isFlag)
         {
-            GameManager.score++;
+            if (GameManager.picture.SequenceEqual(GameManager.target_picture))
+            {
+                GameManager.score++;
+            }
+            GameManager.is_level_over = true;
+            isFlag = false;
         }
-        GameManager.is_level_over = true;
-        // Debug.Log("You Pass Level 0 !");
     }
 }

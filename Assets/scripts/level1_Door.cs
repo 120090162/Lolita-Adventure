@@ -6,7 +6,7 @@ using UnityEngine;
 public class level1_Door : MonoBehaviour
 {
     public Vector3 DoorPositon;
-
+    private bool isFlag = true;
 
     
     void Start()
@@ -23,13 +23,16 @@ public class level1_Door : MonoBehaviour
     //     }
     // }
 
-    void OnCollisionEnter2D()
+    void OnCollisionStay2D()
     {
-        if (GameManager.picture.SequenceEqual(GameManager.target_picture))
+        if (isFlag)
         {
-            GameManager.score++;
+            if (GameManager.picture.SequenceEqual(GameManager.target_picture))
+            {
+                GameManager.score++;
+            }
+            GameManager.is_level_over = true;
+            isFlag = false;
         }
-        GameManager.is_level_over = true;
-        // Debug.Log("You Pass Level 0 !");
     }
 }

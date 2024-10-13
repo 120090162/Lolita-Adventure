@@ -7,6 +7,7 @@ using UnityEngine;
 public class level0_hole : MonoBehaviour
 {
     public Vector3 HolePositon;
+    private bool isFlag = true;
     void Start()
     {
         HolePositon = transform.position;   
@@ -18,14 +19,16 @@ public class level0_hole : MonoBehaviour
     //         GameManager.is_level_over = true;
     //     }
     // }
-
-    void OnCollisionEnter2D()
+    void OnCollisionStay2D()
     {
-        if (GameManager.picture.SequenceEqual(GameManager.target_picture))
+        if (isFlag)
         {
-            GameManager.score++;
+            if (GameManager.picture.SequenceEqual(GameManager.target_picture))
+            {
+                GameManager.score++;
+            }
+            GameManager.is_level_over = true;
+            isFlag = false;
         }
-        GameManager.is_level_over = true;
-        // Debug.Log("You Pass Level 0 !");
     }
 }
